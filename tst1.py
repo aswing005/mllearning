@@ -1,6 +1,6 @@
 import pandas as pd
 import math
-df=pd.read_csv('D:\ml\Salary_Data.csv')
+df=pd.read_csv('location of dat set')  #update
 df['monthly sal']=df['Salary']/12
 df.fillna(10000,inplace=True)
 #forecast='Salary'
